@@ -15,7 +15,9 @@ public class App {
             }
             System.out.print("*");
             x++;
-            millies -= a; 
+            millies -= a;
+            if(millies < 20)
+                millies = 20;
             Thread.sleep(millies);
             System.out.print(CLEAN_SCREEN);
         } while (true);
