@@ -5,7 +5,7 @@ public class App {
         long millis = 350;
         double q = 2.0;
         double E = 5.0;
-        double m = 6.0;
+        double m = 2.0;
 
         double a = (q*E)/m;
 
